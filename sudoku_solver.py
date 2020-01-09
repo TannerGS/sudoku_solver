@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[37]:
-
-
 board = [
     [0,0,0,2,6,0,7,0,1],
     [6,8,0,0,7,0,0,9,0],
@@ -85,10 +79,3 @@ print_board(board)
 solve(board)
 print('\n' + '--------------------' + '\n')
 print_board(board)
-
-
-# In[ ]:
-
-
-
-
