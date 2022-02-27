@@ -75,7 +75,10 @@ def find_empty(bd):
     
     return False
             
+print('\n' + 'Starting Sudoku Board' + '\n')
 print_board(board)
 solve(board)
 print('\n' + '--------------------' + '\n')
+print( '\n' + 'Solved Sudoku Board' + '\n')
 print_board(board)
+print('\n' + '--------------------' + '\n')
